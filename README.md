@@ -14,7 +14,7 @@ A shift booking app.
 
 * install: after cloning the project, open a new terminal `cd` in the newly created folder, and run `npm install`
 
-* Launch (development mode) : `npm start`
+* Launch (development mode) : in a terminal, launch `npm start`, and in another, `npm run server:start`
 * Launch (production mode) : `npm run prod`
 * Format code (with Prettier): `npm run format`
 * Deploy (to a branch, not to production): `npm run branch:deploy`
