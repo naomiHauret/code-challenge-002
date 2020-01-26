@@ -1,0 +1,20 @@
+.shimmer {
+  background-image: linear-gradient(to right, #f7f8fb 0%, #f1f4f8 20%, #cbd2e1 40%, #f7f8fb 100%);
+  background-repeat: no-repeat;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeholderShimmer;
+  animation-timing-function: linear;
+  opacity: 0.35;
+}
+
+@keyframes placeholderShimmer {
+  0% {
+    background-position: -500px 0;
+  }
+
+  100% {
+    background-position: 500px 0;
+  }
+}
